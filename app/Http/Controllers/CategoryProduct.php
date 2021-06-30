@@ -78,10 +78,10 @@ class CategoryProduct extends Controller
     //end hàm admin
 
     public function show_product_home(){
-        // $all_product = DB::table('product')->where('featured','1')->orderby('id_product','desc')->limit(4)->get();
-        // $category_product = DB::table('category_product')->where('cate_status','1')->orderby('id','desc')->get();
+        $all_product = DB::table('product')->where('featured','1')->orderby('id_product','desc')->limit(4)->get();
+        $category_product = DB::table('category_product')->where('cate_status','1')->orderby('id','desc')->get();
 
-        return view('pages.category.show_category');
+        return view('pages.category.show_category')->with('category_product',$category_product)->with('all_product',$all_product);
     }
 
     public function show_category_home($category_id){

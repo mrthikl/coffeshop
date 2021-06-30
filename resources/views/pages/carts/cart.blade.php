@@ -26,7 +26,7 @@
     <form action="{{ URL::to('/save-cart') }}" method="POST">
         {{ csrf_field() }}
         <button class="btn-style" type="submit">GIỎ HÀNG</button>
-    {{-- <a class="btn-style" href="">GIỎ HÀNG</a> --}}
+
 </form>
   </li>
 

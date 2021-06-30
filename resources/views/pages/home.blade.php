@@ -131,7 +131,7 @@
               </div>
               <h5 href="">{{ $product->name }} </h5>
               <p style="font-size:18px; margin-top: 10px;"> {{ number_format($product->regular_price).' VNĐ' }} </p>
-              <a class="btn-style " onclick="AddCart({{ $product->id_product }})" href="javascript:">MUA NGAY</a>
+              <li class=""><a  onclick="AddCart({{ $product->id_product }})" href="javascript:">MUA NGAY</a></li>
             </div>
 
             @endforeach
