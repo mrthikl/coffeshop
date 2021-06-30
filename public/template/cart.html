@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffe Shop</title>
+  <link rel="icon" type="image/x-icon" href="./img/assets/cropped-favicon-32x32.png" />
+  <!-- LINK -->
+  <link rel="stylesheet" href="./cssfile/aos.css">
+  <link rel="stylesheet" href="./cssfile/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/index.css" />
+
+<body>
+  <header class="flex-style">
+    <div class="btnHeader">
+      <div class="hamburger flex-style">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <a class="logo flex-style" href="/">
+      <img src="../img/assets/logo-mobile.png" alt="logo">
+      <img src="../img/assets/logo-light.png" alt="logo">
+    </a>
+
+    <nav class="navigation">
+      <ul>
+        <li>
+          <a href="/">Trang chủ</a>
+        </li>
+        <li>
+          <a href="shop.html">Sản phẩm</a>
+          <div class="dropdownMenu">
+
+          </div>
+        </li>
+        <li>
+          <a href="blog.html">Bài viết</a>
+        </li>
+        <li>
+          <a href="contact.html">Liên hệ</a>
+        </li>
+        <li>
+          <a href="about.html">Về chúng tôi</a>
+        </li>
+        <li>
+          <div id="btnLogin">
+            <i class="far fa-user"></i>
+          </div>
+        </li>
+        <li class="cartHeader" style="position: relative;">
+          <a class=cartLink href="cart.html">
+            <img src="../img/assets/cart.svg" alt="cart">
+            <sup>10</sup>
+          </a>
+          <div class="supCart">
+            <ul>
+              <li>
+                <img src="../img/images/product-img-1-800x800.png" alt="product">
+                <div class="itemInfo">
+                  <h5>
+                    <a href="productDetail.html">Ethiopia Coffee</a>
+                  </h5>
+                  <p>Số lượng: 11</p>
+                  <p>$18.00</p>
+                </div>
+                <button class="close">
+                  <img src="../img/assets/close2.svg" alt="close">
+                </button>
+              </li>
+              <li>
+                <img src="../img/images/product-img-1-800x800.png" alt="product">
+                <div class="itemInfo">
+                  <h5>
+                    <a href="productDetail.html">Ethiopia Coffee</a>
+                  </h5>
+                  <p>Số lượng: 11</p>
+                  <p>$18.00</p>
+                </div>
+                <button class="close">
+                  <img src="../img/assets/close2.svg" alt="close">
+                </button>
+              </li>
+              <li style="display:block; width: 100%;">
+                <div class="total flex-style">
+                  <p>TOTAL</p>
+                  <p>$288.00</p>
+                </div>
+                <a class="btn-style" href="cart.html">GIỎ HÀNG</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+  </header>
+  <div class="headerSecond flex-style">
+    <div class="btnHeader">
+      <div class="hamburger flex-style">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <a class="logo flex-style" href="/">
+      <img src="../img/assets/logo-mobile.png" alt="logo">
+      <img src="../img/assets/logo-light.png" alt="logo">
+    </a>
+
+    <nav class="navigation">
+      <ul>
+        <li>
+          <a href="/">Trang chủ</a>
+        </li>
+        <li>
+          <a href="shop.html">Sản phẩm</a>
+        </li>
+        <li>
+          <a href="blog.html">Bài viết</a>
+        </li>
+        <li>
+          <a href="contact.html">Liên hệ</a>
+        </li>
+        <li>
+          <a href="about.html">Về chúng tôi</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="btnLogin">
+      <i class="far fa-user"></i>
+    </div>
+  </div>
+  <div class="loginSec flex-style">
+    <img class="btnCloseLoginSec" src="../img/assets/close2.svg" alt="close">
+    <img class="logo" src="../img/assets/logo-footer-sidearea.png" alt="logo">
+    <form action="">
+      <h5> Đăng nhập tài khoản của bạn</h5>
+      <input type="text" placeholder="Tài khoản">
+      <input type="password" placeholder="Mật khẩu">
+      <button type="submit">Đăng nhập</button>
+      <p style=" text-align:right">
+        <a href="#" style="color:var(--brown_light); margin-left: -30px;">Quên mật
+          khẩu?</a>
+      </p>
+    </form>
+    <div style="width: 100%; max-width: 300px; margin: 0 auto;">
+
+      <div style="width: 100%; text-align:center">
+        <p>Hoặc đăng nhập bằng</p>
+        <div class="flex-style" style="justify-content: space-between;">
+          <button class="btnLogin" style="color: #3260b1;">
+            <i class="fab fa-facebook-square"></i>Facebook
+          </button>
+          <button class="btnLogin" style="color: #e03a49">
+            <i class="fab fa-google-plus-square"></i>Goggle
+          </button>
+        </div>
+      </div>
+
+    </div>
+    <p style=" text-align:center; position:absolute; bottom:10px;left: calc(50% - 182px /2)">chưa có tài khoản? <a href="#" style="color:var(--brown_light)">Đăng ký</a>
+    </p>
+  </div>
+  <main>
+    <section class="hero subpageHero flex-style">
+      <div class="backgroundHero rellax2" data-rellax-speed="-8" data-rellax-percentage="0.5" style="background: url('./img/images/shop-list-title-img-1.jpg') center/cover no-repeat;"></div>
+      <h1>GIỎ HÀNG</h1>
+    </section>
+    <section class="cart">
+      <form action="">
+        <table>
+          <thead>
+            <tr>
+              <th>&nbsp</th>
+              <th>&nbsp</th>
+              <th>Sản phẩm</th>
+              <th>Gía</th>
+              <th>Số lượng</th>
+              <th>Tổng</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <a href="#">
+                  <img class=close src="./img/assets/close.svg" alt="close">
+                </a>
+              </td>
+              <td>
+                <img class=productImage src="./img/images/product-img-1-800x800.png" alt="product">
+              </td>
+              <td> Ethiopia Coffee</td>
+              <td> $18.00</td>
+              <td>
+                <div class="number">
+                  <div onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus">
+                    <i class="fas fa-plus"></i>
+                  </div>
+                  <input class="quantity" min="0" name="quantity" value="1" type="number">
+                  <div onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus">
+                    <i class="fas fa-minus"></i>
+                  </div>
+                </div>
+              </td>
+              <td>$200.00</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#">
+                  <img class=close src="./img/assets/close.svg" alt="close">
+                </a>
+              </td>
+              <td>
+                <img class=productImage src="./img/images/product-img-1-800x800.png" alt="product">
+              </td>
+              <td> Ethiopia Coffee</td>
+              <td> $18.00</td>
+              <td>
+                <div class="number">
+                  <div onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus">
+                    <i class="fas fa-plus"></i>
+                  </div>
+                  <input class="quantity" min="0" name="quantity" value="1" type="number">
+                  <div onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus">
+                    <i class="fas fa-minus"></i>
+                  </div>
+                </div>
+              </td>
+              <td>$200.00</td>
+            </tr>
+            <tr style="border: 0;">
+              <td colspan="6">
+                <div class="coupon">
+                  <input type="text" placeholder="Mã giảm giá">
+                  <input class="btn-style" type="submit" value="Sử dụng mã giảm giá   ">
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+      <div class="cardTotal">
+        <h2>TỔNG TIỀN</h2>
+        <p>Số tiền: <span>$288.00</span>
+        </p>
+        <p>Vận chuyển: <span>Sài Gòn</span>
+        </p>
+        <p>Tổng: <span>$288.00</span>
+        </p>
+        <a class="btn-style" href="checkout.html">Đặt hàng</a>
+
+      </div>
+    </section>
+  </main>
+  <footer class="">
+    <div class="top flex-style">
+      <img src="../img/assets/logo-light.png" alt="logo">
+      <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+      <p>incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+      <p>nostrud exercitation ullamco laboris.”</p>
+      <h5 style="margin-top:var(--spacing_lg)">STORES</h5>
+      <p>
+        <a href="#">Dunsmuir Ave, Los Angeles, CA 90036, USA</a>
+      </p>
+      <p>
+        <a href="#">Atkins Ave, Brooklyn, NY 11208, USA</a>
+      </p>
+      <h5 style="margin-top:var(--spacing_lg)">News As Fresh As Our Coffee</h5>
+      <form action="">
+        <div class="formField flex-style">
+          <input type="email" placeholder="Your E-mail adress">
+          <button type="submit">
+            <i class="far fa-envelope"></i>
+          </button>
+        </div>
+      </form>
+    </div>
+    <div class="bottom flex-style">
+      <p>© 2018 Qode Interactive, , All Rights Reserved</p>
+      <ul>
+        <li>
+          <a href="/">Trang chủ</a>
+        </li>
+        <li>
+          <a href="#">Về chúng tôi</a>
+        </li>
+        <li>
+          <a href="#">Sản phẩm</a>
+        </li>
+        <li>
+          <a href="#">Liên hệ</a>
+        </li>
+      </ul>
+      <div class="social">
+        <ul class=flex-style>
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="fab fa-instagram-square"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/jquery.malihu.PageScroll2id.min.js"></script>
+  <!-- Swiper -->
+  <script src="./js/swiper-bundle.min.js"></script>
+  <!-- Animate on Scroll -->
+  <script src="./js/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <!-- Parallax -->
+  <script src="./js/rellax.min.js"></script>
+  <script src="js/index.js"></script>
+  <!-- /SCRIPTS -->
+</body>
+
+</html>
