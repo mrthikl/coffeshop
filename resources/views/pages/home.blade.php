@@ -123,7 +123,7 @@
         <div class="productImage">
           <a href="{{ URL::to('/chi-tiet-san-pham/'.$product->id_product) }}">
             <div class="backgroundProduct flex-style" style=" flex-direction:column">
-              <button class="btn-style ">THÊM VÀO GIỎ</button>
+              <button class="btn-style ">THÊM VÀO </button>
               <button class="btn-style" style="margin-top: 20px; min-width: 218px;"><a onclick="AddCart({{ $product->id_product }})" href="javascript:">MUA NGAY</a></button>
             </div>
           </a>
